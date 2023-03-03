@@ -11,5 +11,5 @@ case $1 in
 	Quotient)
 		expr $var1 / $var2 ;;
 	*)
-		echo "Wrong argurment" ;;
+		echo "Kindly enter whole numbers" ;;
 esac
