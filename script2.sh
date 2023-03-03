@@ -15,5 +15,4 @@ cp NeacDeployment/app.yml backup
 echo "Deployment Completed"
 echo today:
 date
-hostname
-echo "has been deployed successfully"
+echo "has been deployed accurately"
