@@ -10,10 +10,13 @@ case $1 in
 		echo "The summation of the two values are `expr $value1 + $value2 ` " ;;
 
         Subtraction)
-                echo "The summation of the two values are `expr $value1 - $value2 ` " ;;
+                echo "The difference of the two values are `expr $value1 - $value2 ` " ;;
 
 	Multiplication )
-                echo "The summation of the two values are `expr $value1 \* $value2 ` " ;;
+                echo "The product of the two values are `expr $value1 \* $value2 ` " ;;
+        
+	Division )
+                echo "The quotient of the two values are `expr $value1 / $value2 ` " ;;
 
 	*)
 esac
