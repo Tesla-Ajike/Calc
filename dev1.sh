@@ -17,6 +17,7 @@ case $1 in
         
 	Division )
                 echo "The quotient of the two values are `expr $value1 / $value2 ` " ;;
-
+	Modular )
+	        echo "The modular of the two values are `expr $value % $value2 ` " ;;
 	*)
 esac
