@@ -1,5 +1,5 @@
 #!/bin/bash
-#This is a switch case for additon/subtraction/division/multiplication
+#This is a switch case for summation/subtraction/division/multiplication
 echo "Enter first value:"
 read value1
 echo "Enter second value:"
